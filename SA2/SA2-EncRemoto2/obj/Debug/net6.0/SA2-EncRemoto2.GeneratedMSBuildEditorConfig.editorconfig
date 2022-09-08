@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SA2_EncRemoto2
+build_property.ProjectDir = c:\Users\ADRIANO REIS\Desktop\SENAI\modulo9\UC9 PBE-10\SA2\SA2-EncRemoto2\
