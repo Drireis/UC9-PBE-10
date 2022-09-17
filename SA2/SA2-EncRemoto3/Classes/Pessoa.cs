@@ -7,7 +7,7 @@ namespace SA2_EncRemoto2.Classes
         // Atributos da classe pessoa.
         public string? Nome {get; set;}
         //instanciando da classe endereço
-        public string? Endereco {get; set;}
+        public Endereco? Endereco {get; set;}
         public float Rendimento {get; set;}
         public abstract float PagarImposto(float rendimento);
     }

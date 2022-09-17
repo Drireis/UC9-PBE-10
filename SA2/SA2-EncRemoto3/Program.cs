@@ -36,11 +36,19 @@ Rendimento: {novaPessoaFisica.Rendimento}");
 //instanciar PessoaJuridica
 PessoaJuridica novaPessoaJuridica = new PessoaJuridica();
 
+//instanciamos um objeto do tipo endereço,atribuimos valores para os atributos
+Endereco novoEndereco = new Endereco();
+novoEndereco.Logradouro = "Quadra";
+novoEndereco.Numero = 50;
+novoEndereco.Complemento = "Conjunto A";
+novoEndereco.Comercial = true;
+
 //atribuimos valores para os atributos do objeto pessoa juridica
 novaPessoaJuridica.Nome = "Curso Senai";
 novaPessoaJuridica.RazaoSocial = "Escola Senai de Programação";
 novaPessoaJuridica.Cnpj = "123456789321654";
 novaPessoaJuridica.Rendimento = 30000.99f;
+novaPessoaJuridica.Endereco = novoEndereco;
 
 //instanciar um objeto pessoa juridica para manipularmos os métodos
 PessoaJuridica metodosPj = new PessoaJuridica();
@@ -52,6 +60,7 @@ Nome fantasia: {novaPessoaJuridica.Nome}
 Razão social: {novaPessoaJuridica.RazaoSocial}
 CNPJ: {novaPessoaJuridica.Cnpj}
 Rendimento: {novaPessoaJuridica.Rendimento}
+Endereço : {novaPessoaJuridica.Endereco.Logradouro}, {novaPessoaJuridica.Endereco.Numero}, {novaPessoaJuridica.Endereco.Complemento}, {novaPessoaJuridica.Endereco.Comercial}
 Imposto á pagar : {metodosPj.PagarImposto(novaPessoaJuridica.Rendimento).ToString("C", new CultureInfo("en-US"))}
 ");
 
