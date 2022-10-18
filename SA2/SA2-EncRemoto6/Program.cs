@@ -18,8 +18,8 @@ String? opcao;
 do{
 Console.WriteLine(@$"
 ================================================
-|      Escolha uma da opções abaixo:
-|-----------------------------------------------
+|      Escolha uma da opções abaixo:           |
+|----------------------------------------------|
 |         1 - Pessoa Fisica                    |
 |         2 - Pessoa Juridica                  |
 |                                              |
