@@ -17,7 +17,7 @@
  6. Validação de data de nascimento
  7. Validação de Cnpj
  8. Verificar se endereço é comercial ou residencial
- # Tecnologias utilizadas
+ ### Tecnologias utilizadas
  1. IDE Visual Studio Code
  2. Linguagem C#
  3. Framework .NET

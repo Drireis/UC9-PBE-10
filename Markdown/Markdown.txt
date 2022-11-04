@@ -1,0 +1,32 @@
+Markdown é uma linguagem de marcação usada para padronizar a formatação de texto na web.
+
+* Para títulos se usa o caractere # 
+# Título <h1>
+## Título <h2>
+### Título <h3>
+#### Título <h4>
+##### Título <h5>
+###### Título <h6>
+
+* Para ênfase no conteúdo * ou underline _
+Negrito: dois asteriscos **texto** ou dois underlines __texto__ no início e no fim do conteúdo.
+Itálico: um asterisco *texto* ou um underline _texto_ no início e no fim do conteúdo.
+
+* Para links
+- Âncora: o texto que aparece e colocado entre colchetes [texto] e o endereço e colocado entre parênteses (link), [exemplo](https://exemplo.com)  
+O link exemplo em forma de texto 
+- Link direto: O link visível é colocado entre chaves <> ,<https://exemplo.com/>    
+Link direto https://exemplo.com/
+* Listas 
+Lista ordenadas se usa asterisco * seguido de um espaço e o texto , * texto.
+* Item 1
+* Item 2
+* Item 3
+Lista ordenada se usa o número do item seguido de  ponto(.) e espaço antes do texto
+1. Item 1
+2. Item 2
+3. Item 3
+ 
+*Citação, transforma texto em uma citação usando *blockquote* no inicio e no fim para delimitar a citação
+
+*Tabelas e títulos use | para delimitar as colunas e hífen abaixo da primeira linha para definir o titulo .
